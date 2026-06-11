@@ -62,7 +62,7 @@ export default function AboutSection() {
           >
             <div className="relative overflow-hidden col-span-2">
               <img
-                src="https://media.base44.com/images/public/69e0bece2429485467e3e2c0/f3d498705_WhatsAppImage2026-04-16at1323352.jpg"
+                src="/images/f3d498705_WhatsAppImage2026-04-16at1323352.jpg"
                 alt="Equipo Gastro Will"
                 className="w-full h-56 object-cover"
               />
@@ -70,14 +70,14 @@ export default function AboutSection() {
             </div>
             <div className="overflow-hidden">
               <img
-                src="https://media.base44.com/images/public/69e0bece2429485467e3e2c0/acd2f49b3_WhatsAppImage2026-04-16at1323351.jpg"
+                src="/images/acd2f49b3_WhatsAppImage2026-04-16at1323351.jpg"
                 alt="Chef Gastro Will"
                 className="w-full h-48 object-cover object-top"
               />
             </div>
             <div className="overflow-hidden">
               <img
-                src="https://media.base44.com/images/public/69e0bece2429485467e3e2c0/09adc786a_WhatsAppImage2026-04-16at1323353.jpg"
+                src="/images/09adc786a_WhatsAppImage2026-04-16at1323353.jpg"
                 alt="Barra Gastro Will"
                 className="w-full h-48 object-cover"
               />

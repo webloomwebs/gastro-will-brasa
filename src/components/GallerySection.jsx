@@ -7,24 +7,24 @@ import { motion } from "framer-motion";
 // Fila 4 (locales): grande + pequeña + pequeña (2+1+1)
 // Fila 5: pequeña + grande + pequeña (1+2+1)
 const GALLERY = [
-  { src: "https://media.base44.com/images/public/69e0bece2429485467e3e2c0/d937e3996_WhatsAppImage2026-04-16at132336.jpg", alt: "Carnes a la brasa", span: "col-span-2 md:col-span-3", tall: true },
-  { src: "https://media.base44.com/images/public/69e0bece2429485467e3e2c0/347267a29_WhatsAppImage2026-04-16at1323365.jpg", alt: "Huevos rotos con chistorra", tall: true },
+  { src: "/images/d937e3996_WhatsAppImage2026-04-16at132336.jpg", alt: "Carnes a la brasa", span: "col-span-2 md:col-span-3", tall: true },
+  { src: "/images/347267a29_WhatsAppImage2026-04-16at1323365.jpg", alt: "Huevos rotos con chistorra", tall: true },
 
-  { src: "https://media.base44.com/images/public/69e0bece2429485467e3e2c0/99f8ce152_WhatsAppImage2026-04-16at1323363.jpeg", alt: "Butifarra con patatas" },
-  { src: "https://media.base44.com/images/public/69e0bece2429485467e3e2c0/e7072e16e_WhatsAppImage2026-04-16at1323364.jpg", alt: "Picaña fileteada con pimientos" },
-  { src: "https://media.base44.com/images/public/69e0bece2429485467e3e2c0/64960feb7_WhatsAppImage2026-04-16at1323366.jpg", alt: "Ensalada con queso de cabra", span: "col-span-2" },
+  { src: "/images/99f8ce152_WhatsAppImage2026-04-16at1323363.jpeg", alt: "Butifarra con patatas" },
+  { src: "/images/e7072e16e_WhatsAppImage2026-04-16at1323364.jpg", alt: "Picaña fileteada con pimientos" },
+  { src: "/images/64960feb7_WhatsAppImage2026-04-16at1323366.jpg", alt: "Ensalada con queso de cabra", span: "col-span-2" },
 
-  { src: "https://media.base44.com/images/public/69e0bece2429485467e3e2c0/eaf2627e8_WhatsAppImage2026-04-16at1323368.jpg", alt: "Lacón a la gallega con pimentón", span: "col-span-2" },
-  { src: "https://media.base44.com/images/public/69e0bece2429485467e3e2c0/4379c4e41_WhatsAppImage2026-04-16at1323362.jpg", alt: "Pluma ibérica jugosa a la brasa" },
-  { src: "https://media.base44.com/images/public/69e0bece2429485467e3e2c0/852eb21ff_WhatsAppImage2026-04-16at1323361.jpg", alt: "Tomate aliñado con cebolla" },
+  { src: "/images/eaf2627e8_WhatsAppImage2026-04-16at1323368.jpg", alt: "Lacón a la gallega con pimentón", span: "col-span-2" },
+  { src: "/images/4379c4e41_WhatsAppImage2026-04-16at1323362.jpg", alt: "Pluma ibérica jugosa a la brasa" },
+  { src: "/images/852eb21ff_WhatsAppImage2026-04-16at1323361.jpg", alt: "Tomate aliñado con cebolla" },
 
-  { src: "https://media.base44.com/images/public/69e0bece2429485467e3e2c0/d5237d780_WhatsAppImage2026-04-16at132330.jpg", alt: "Fachada y terraza", span: "col-span-2" },
-  { src: "https://media.base44.com/images/public/69e0bece2429485467e3e2c0/d67c71e97_WhatsAppImage2026-04-16at1323301.jpg", alt: "Terraza exterior" },
-  { src: "https://media.base44.com/images/public/69e0bece2429485467e3e2c0/ee2b43ef6_WhatsAppImage2026-04-16at1323312.jpg", alt: "Sala interior con barrica" },
+  { src: "/images/d5237d780_WhatsAppImage2026-04-16at132330.jpg", alt: "Fachada y terraza", span: "col-span-2" },
+  { src: "/images/d67c71e97_WhatsAppImage2026-04-16at1323301.jpg", alt: "Terraza exterior" },
+  { src: "/images/ee2b43ef6_WhatsAppImage2026-04-16at1323312.jpg", alt: "Sala interior con barrica" },
 
-  { src: "https://media.base44.com/images/public/69e0bece2429485467e3e2c0/a84703a92_WhatsAppImage2026-04-16at1323311.jpg", alt: "Comedor interior" },
-  { src: "https://media.base44.com/images/public/69e0bece2429485467e3e2c0/c95d47614_WhatsAppImage2026-04-16at132334.jpg", alt: "Chef y equipo en barra", span: "col-span-2" },
-  { src: "https://media.base44.com/images/public/69ef684820470d1cfca49e9d/dc633feab_image.png", alt: "Patatas bravas de la casa" },
+  { src: "/images/a84703a92_WhatsAppImage2026-04-16at1323311.jpg", alt: "Comedor interior" },
+  { src: "/images/c95d47614_WhatsAppImage2026-04-16at132334.jpg", alt: "Chef y equipo en barra", span: "col-span-2" },
+  { src: "/images/dc633feab_image.png", alt: "Patatas bravas de la casa" },
 ];
 
 export default function GallerySection() {

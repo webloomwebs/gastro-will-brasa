@@ -34,7 +34,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16 md:h-20">
             <button onClick={() => scrollTo("#inicio")} className="flex items-center gap-2">
               <img
-                src="https://media.base44.com/images/public/69e0bece2429485467e3e2c0/8db3c0324_image.png"
+                src="/images/8db3c0324_image.png"
                 alt="Gastro Will"
                 className="h-[65px] w-auto block"
               />

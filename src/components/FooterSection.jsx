@@ -20,7 +20,7 @@ export default function FooterSection() {
           <div>
             <div className="flex justify-center mb-5">
               <img
-                src="https://media.base44.com/images/public/69e0bece2429485467e3e2c0/8db3c0324_image.png"
+                src="/images/8db3c0324_image.png"
                 alt="Gastro Will"
                 className="h-[80px] w-auto block"
               />

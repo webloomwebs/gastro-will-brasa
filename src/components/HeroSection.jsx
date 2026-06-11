@@ -12,7 +12,7 @@ export default function HeroSection() {
     <section id="inicio" className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="https://media.base44.com/images/public/69e0bece2429485467e3e2c0/d937e3996_WhatsAppImage2026-04-16at132336.jpg"
+          src="/images/d937e3996_WhatsAppImage2026-04-16at132336.jpg"
           alt="Brasa Gastro Will"
           className="w-full h-full object-cover"
         />
@@ -28,7 +28,7 @@ export default function HeroSection() {
           className="flex justify-center mb-6 md:mb-8"
         >
           <img
-            src="https://media.base44.com/images/public/69e0bece2429485467e3e2c0/8db3c0324_image.png"
+            src="/images/8db3c0324_image.png"
             alt="Logo Gastro Will"
             className="drop-shadow-2xl h-[120px] w-auto"
           />
